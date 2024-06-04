@@ -254,8 +254,8 @@ export default function (sentences) {
         id: 1,
         username: "Admin",
         password:
-          "$2a$12$kJo4MazVWWbDf3tesppJM.DTJAxdv.MUT7QvqLyd43t1ULQDyHF/W",
-        rol: "Administrador",
+          "$2a$04$ALW5OtzzGNJ/U7b8fQyiyuokA825QzkN2kmcp6l/IK4EZxL4rBZVS",
+        rol: "administrator",
       },
     ];
 

@@ -5,7 +5,6 @@ import { errors } from "./API/connection/error.js";
 
 import rutasGet from "./API/routes/rutasGet.js";
 import rutasPost from "./API/routes/rutasPost.js";
-
 //Constantes
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -35,7 +34,6 @@ app.use((req, res, next) => {
 });
 
 // RUTAS
-
 app.use("/api/consulta", rutasGet);
 app.use("/api/insert", rutasPost);
 
